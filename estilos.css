@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    width: 86%;
+    margin: auto;
+
+}
+
+.container h1 {
+    text-transform: uppercase;
+}
+
+.header {
+    background-color: #232323;
+    color: white;
+    /* height: 81px;  */
+    overflow: auto;
+    border-bottom: 3px solid orangered;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+.titulo a {
+    margin: 0;
+    float: left;
+    text-decoration: none;
+    color: white;
+}
+li {
+    float: left;
+}
+
+body .header .navbar li {
+    float: left;
+    margin-right: 10px;
+    text-transform: uppercase  ;
+}
+
+.destaque a {
+    color: orangered;
+}
+
+/* BANNER */
+
+.banner {
+    text-align: center;
+    background-color: palevioletred;
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-shadow: #232323;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 50px;
+    padding-top: 200px;
+}.banner h3 {
+    color: #555;
+}
+.saiba-mais button {
+    border: 0;
+    background-color: orangered;
+    color: white;
+    height: 50px;
+    width: 200px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.saiba-mais {
+    text-align: center;
+    background-color: #232323;
+    padding-bottom: 11px;
+}
+
+/* MISSÃO VISÃO VALORES */
+
+.box img {
+    height: 100px;
+}
+
+.box {
+    /* background-color: red; */
+    overflow: auto;
+}
+.box-item {
+    /* background-color: purple; */
+    float: left;
+    text-align: center;
+    width: 27.2%;
+    padding: 3%;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: black;
+    height: 90px;
+}
+
+.footer h4 {
+    margin: 0;
+    padding-top: 40px;
+    font-weight: 100px;
+    color: white;
+}
+
+.footer .container a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.containerL {
+    height: 300px;
+    width: 300px;
+    background-color: #232323;
+    float: left;
+    padding-bottom: 110px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: 3px solid orangered;
+    text-transform: uppercase;
+    color: white;
+}
+
+.containerR {
+    height: 300px;
+    width: 300px;
+    background-color: #232323;
+    float: right;
+    padding-bottom: 110px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: 3px solid orangered;
+    text-transform: uppercase;
+    color: white;
+}
+
+.BAY {
+    font-size: 20px;
+}
+
+.containerL img {
+    height: 190px;
+    width: 190px;
+    margin-left: 17%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: auto;
+    /* background-color: red; */
+    padding-right: 63px;
+}
+.containerR img {
+    height: 220;
+    width: 220px;
+    margin-left: 12%;
+    overflow: auto;
+    /* background-color: red; */
+    padding-right: 63px;
+}
+
+.containerLT {
+    text-transform: uppercase;
+}
+
+.containerRT {
+    text-transform: uppercase;
+}
